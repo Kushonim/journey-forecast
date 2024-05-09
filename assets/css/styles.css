@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #8697C4;
+}
+
+header {
+    background-color: #7091E6;
+    padding: 25px;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+header > h1 {
+    margin: 0;
+    text-align: end;
+    padding-right: 2%;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+#citySearch {
+    margin-left: 10px;
+}
+
+#cityHistory {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#cityHistory button {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+#weatherForecast {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#mainWeather {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#weekForecast {
+    display: flex;
+}
+
+.forecast-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
