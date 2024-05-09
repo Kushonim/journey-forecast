@@ -10,20 +10,18 @@
     <header>
         <h1>Journey Forecast</h1>
     </header>
-    <aside>
-        <div id="citySearch">
-            <form>
+    <div id="searchBox">
+        <form id="citySearch">
             <label for="cityInput">Search for a City:</label>
-            <input type="text" id="cityInput" name="cityInput" placeholder="Minneapolis">
-            </form>
-        </div>
-        <div id="cityHistory">
-
-        </div>
-    </aside>
-    <main>
+            <input type="text" id="cityInput" name="cityInput" placeholder="Minneapolis"><br><br>
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+        <div id="cityHistory"></div>
+    </div>
+    <div id="weatherForecast">
         <div id="mainWeather"></div>
         <div id="weekForecast"></div>
-    </main>
+    </div>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
