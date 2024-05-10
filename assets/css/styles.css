@@ -64,3 +64,41 @@ main {
     margin-right: 10px;
     flex: 1;
 }
+
+/* Media Queries */
+
+/* For devices up to 768px width */
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    #citySearch, #cityHistory {
+        margin: 0;
+    }
+}
+
+/* For devices between 768px and 1024px width */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        font-size: 1.8em;
+    }
+}
+
+/* For devices between 1025px and 1440px width */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    header {
+        font-size: 2.2em;
+    }
+}
+
+/* For devices above 1440px width */
+@media only screen and (min-width: 1441px) {
+    header {
+        font-size: 2.5em;
+    }
+}
